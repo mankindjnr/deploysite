@@ -8,7 +8,7 @@ echo "past the set"
 source "$(poetry env info --path)/bin/activate"
 
 echo "past the source"
-
+poetry --version
 # Ensure the lock file is up-to-date
 poetry lock
 
