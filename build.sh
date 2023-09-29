@@ -5,7 +5,7 @@ set -o pipefail
 
 echo "past the set"
 # Activate the Poetry virtual environment
-source "$(poetry env info --path)/bin/activate"
+#source "$(poetry env info --path)/bin/activate"
 
 echo "past the source"
 poetry --version
